@@ -23,6 +23,10 @@ dd {
   padding: 0;
 }
 
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
 /* --------------------
    Root Variables Start
    -------------------- */
@@ -177,8 +181,7 @@ dd {
   border-radius: 100px;
 }
 .hero-section img {
-  /* margin-left: 85px; */
-  /* box-shadow: 0px 40px 80px rgba(246, 191, 0, 0.15); */
+  margin-left: 85px !important;
 }
 /* ----------------------
    Hero Seciton End
@@ -190,6 +193,7 @@ dd {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .statcis {
@@ -411,6 +415,7 @@ dd {
    Testimonial Section Start
    -------------------------- */
 .divider {
+  margin-top: 50px;
   width: 40px;
   height: 4px;
   background: var(--pirmary);
@@ -425,6 +430,8 @@ dd {
 }
 .client-reviews {
   margin-top: 38px;
+  margin-bottom: 38px;
+  position: relative;
 }
 
 .client-name {
@@ -436,6 +443,9 @@ dd {
 }
 
 .prev-btn {
+  position: absolute;
+  bottom: -90px;
+  /* right: 0px; */
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -454,6 +464,9 @@ dd {
   stroke: var(--white);
 }
 .next-btn {
+  position: absolute;
+  bottom: -90px;
+  left: 60px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -548,6 +561,7 @@ dd {
 }
 
 .footer-bottom {
+  align-items: center;
   padding: 25px 0px;
 }
 .footer-bottom span {

@@ -1,0 +1,76 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .padding-y {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .padding-t {
+    padding-top: 50px;
+  }
+  .padding-b {
+    padding-bottom: 50px;
+  }
+
+  .navbar {
+    padding: 8px 0px;
+  }
+
+  .hero-section {
+    padding: 50px 0px;
+    background-color: #1f0a00;
+  }
+  .hero-titel {
+    font-size: 56px;
+    line-height: 66px;
+  }
+
+  .hero-section img {
+    margin-top: 50px;
+    margin-left: 0px !important;
+    /* box-shadow: 0px 40px 80px rgba(246, 191, 0, 0.15); */
+  }
+
+  .statics-wrapper {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .statcis {
+    text-align: center;
+    width: 50%;
+  }
+
+  .services {
+    margin-top: 30px;
+  }
+  .food-cards-wrapper {
+    margin-top: 30px;
+  }
+  .testimonial {
+    padding-bottom: 80px;
+  }
+  .call-to-action {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  .footer-info-titel {
+    margin-top: 20px;
+  }
+
+  .footer-main ul {
+    margin-top: 5px;
+  }
+  .footer-bottom span {
+    display: block;
+    text-align: center;
+  }
+  .footer-icon-wrapper {
+    justify-content: center;
+    gap: 16px;
+  }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
