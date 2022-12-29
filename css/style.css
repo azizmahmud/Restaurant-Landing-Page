@@ -79,6 +79,10 @@ html:focus-within {
   color: var(--white);
   background-color: var(--pirmary);
   border-radius: 8px;
+  text-decoration: none;
+}
+.primary-btn:hover {
+  color: var(--white);
 }
 .primary-btn-outline {
   padding: 16px 32px;
@@ -89,6 +93,9 @@ html:focus-within {
   color: var(--white);
   background-color: var(--dark);
   border-radius: 8px;
+}
+.primary-btn-outline:hover {
+  color: var(--white);
 }
 /* ------------------
    Global Style End 
@@ -122,6 +129,9 @@ html:focus-within {
   background-color: var(--white);
   border-radius: 6px;
   text-decoration: none;
+}
+.nav-btn:hover {
+  color: var(--dark);
 }
 .nav-btn-active {
   padding: 9px 20px;
@@ -452,7 +462,7 @@ html:focus-within {
 }
 
 .food-cards-wrapper {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .food-card {
   padding: 22px;

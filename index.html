@@ -37,8 +37,8 @@
       <!-- Navigation Section Start  -->
       <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img src="img/logo.svg" alt="" srcset=""
+          <a class="navbar-brand" href="index.html"
+            ><img src="img/logo.svg" alt="logo"
           /></a>
           <button
             class="navbar-toggler"
@@ -57,7 +57,7 @@
                 <a
                   class="nav-link active navlink-active"
                   aria-current="page"
-                  href="#"
+                  href="index.html"
                   >Home</a
                 >
               </li>
@@ -65,10 +65,10 @@
                 <a class="nav-link" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Menu</a>
+                <a href="#food-menu" class="nav-link">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Review</a>
+                <a href="#reviews" class="nav-link">Review</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link">Contact Us</a>
@@ -96,7 +96,7 @@
                 foods.
               </p>
               <div class="hero-button-wrapper">
-                <button class="primary-btn">Explore Menu</button>
+                <a href="#food-menu" class="primary-btn">Explore Menu</a>
                 <div class="pulse-button-wrapper">
                   <div class="pulse"></div>
                   <a
@@ -123,7 +123,7 @@
               <img
                 class="img-fluid ms-sm-0 hero-banner-img"
                 src="img/hero-img.png"
-                alt=""
+                alt="Hero Banner"
               />
               <div class="hero-card slide-top">
                 <h3 class="hero-card-titel">Cheese Burger</h3>
@@ -146,26 +146,22 @@
                   <img
                     class="img-fluid ms-0"
                     src="img/review-img.png"
-                    alt=""
-                    srcset=""
+                    alt="client image"
                   />
                   <img
                     class="img-fluid"
                     src="img/review-img2.png"
-                    alt=""
-                    srcset=""
+                    alt="client image"
                   />
                   <img
                     class="img-fluid"
                     src="img/review-img3.png"
-                    alt=""
-                    srcset=""
+                    alt="client image"
                   />
                   <img
                     class="img-fluid"
                     src="img/review-img4.png"
-                    alt=""
-                    srcset=""
+                    alt="client image"
                   />
 
                   <button
@@ -192,43 +188,45 @@
             </div>
           </div>
         </div>
-      </section>
 
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header border-0">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">
-                Please Order First
-              </h1>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body border-0">
-              <p >please Order food from our website first, then you will be able to give your review.
-
-              </p>
-            </div>
-            <div class="modal-footer border-0">
-              <button type="button" class="nav-btn" data-bs-dismiss="modal">
-                Close
-              </button>
-              <button type="button" class="nav-btn-active">Save</button>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header border-0">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Please Order First
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body border-0">
+                <p>
+                  Please first Order food from our website, then you will be
+                  able to give your review.
+                </p>
+              </div>
+              <div class="modal-footer border-0">
+                <button type="button" class="nav-btn" data-bs-dismiss="modal">
+                  Close
+                </button>
+                <button type="button" class="nav-btn-active">Save</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
       <!-- Hero Section End -->
 
       <!-- Statics Section Start  -->
@@ -309,7 +307,7 @@
 
       <!-- Food Menu Section Start  -->
 
-      <section class="food-menu-section padding-y">
+      <section class="food-menu-section padding-y" id="food-menu">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -518,7 +516,7 @@
       <!-- Food Menu Section End -->
 
       <!-- Testimonial Section Start  -->
-      <section class="testimonial padding-y">
+      <section class="testimonial padding-y" id="reviews">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -582,7 +580,7 @@
         <div class="row footer-main">
           <div class="col-lg-5">
             <a class="navbar-brand" href="index.html"
-              ><img src="img/logo-footer.svg" alt="" srcset=""
+              ><img src="img/logo-footer.svg" alt="Footer logo"
             /></a>
             <p class="footer-text">
               Food order now super easy for everyone. Let’s order your food
