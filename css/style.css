@@ -219,9 +219,89 @@ html:focus-within {
   }
 }
 
-.hero-section img {
+.hero-banner-img {
   margin-left: 85px !important;
 }
+
+.hero-card {
+  padding: 16px 22px;
+  bottom: 71px;
+  left: 3px;
+  position: absolute;
+  width: 260px;
+  height: 135px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(25px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 8px;
+}
+
+.hero-card-titel {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.hero-card-ratings {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.hero-card-ratings span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--white);
+}
+
+.hero-card-images-button {
+  display: flex;
+  align-items: center;
+}
+
+.hero-card-images-button img {
+  width: 32px;
+  height: 32px;
+  margin-left: -14px;
+}
+.add-review-btn {
+  margin-left: -14px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  background-color: var(--pirmary);
+  border: 0px;
+}
+
+.add-review-btn svg path {
+  fill: var(--white);
+}
+
+.slide-top {
+  -webkit-animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-delay: 2s;
+}
+
+/* -----------------
+  animation slide-top 
+ --------------------*/
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(150px);
+    transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 /* ----------------------
    Hero Seciton End
    ----------------------  */

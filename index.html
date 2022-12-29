@@ -119,12 +119,116 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <img class="img-fluid ms-sm-0" src="img/hero-img1.png" alt="" />
+            <div class="col-lg-6 position-relative">
+              <img
+                class="img-fluid ms-sm-0 hero-banner-img"
+                src="img/hero-img.png"
+                alt=""
+              />
+              <div class="hero-card slide-top">
+                <h3 class="hero-card-titel">Cheese Burger</h3>
+                <div class="hero-card-ratings">
+                  <svg
+                    width="16"
+                    height="15"
+                    viewBox="0 0 16 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.74296 0.427117C7.85956 0.233371 8.14044 0.23337 8.25704 0.427116L10.5677 4.26671C10.6096 4.33631 10.678 4.38595 10.7571 4.40428L15.1228 5.41539C15.3431 5.46641 15.4299 5.73355 15.2817 5.90431L12.344 9.28842C12.2908 9.34976 12.2647 9.43008 12.2717 9.51102L12.6592 13.9755C12.6787 14.2008 12.4515 14.3659 12.2433 14.2777L8.11703 12.5296C8.04223 12.4979 7.95777 12.4979 7.88297 12.5296L3.75672 14.2777C3.54851 14.3659 3.32127 14.2008 3.34082 13.9755L3.72828 9.51102C3.7353 9.43008 3.7092 9.34976 3.65595 9.28842L0.71833 5.90431C0.570097 5.73355 0.656896 5.46641 0.87719 5.41539L5.2429 4.40428C5.32204 4.38595 5.39037 4.33631 5.43226 4.26671L7.74296 0.427117Z"
+                      fill="#FDC55E"
+                    />
+                  </svg>
+                  <span>4.8 (12.5K Review)</span>
+                </div>
+                <div class="hero-card-images-button">
+                  <img
+                    class="img-fluid ms-0"
+                    src="img/review-img.png"
+                    alt=""
+                    srcset=""
+                  />
+                  <img
+                    class="img-fluid"
+                    src="img/review-img2.png"
+                    alt=""
+                    srcset=""
+                  />
+                  <img
+                    class="img-fluid"
+                    src="img/review-img3.png"
+                    alt=""
+                    srcset=""
+                  />
+                  <img
+                    class="img-fluid"
+                    src="img/review-img4.png"
+                    alt=""
+                    srcset=""
+                  />
+
+                  <button
+                    type="button"
+                    class="add-review-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 13 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12.2915 7.47851H7.84445V12.0432H4.73856V7.47851H0.291504V4.60792H4.73856V0.0432129H7.84445V4.60792H12.2915V7.47851Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Please Order First
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body border-0">
+              <p >please Order food from our website first, then you will be able to give your review.
+
+              </p>
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="nav-btn" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button type="button" class="nav-btn-active">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Hero Section End -->
 
       <!-- Statics Section Start  -->
